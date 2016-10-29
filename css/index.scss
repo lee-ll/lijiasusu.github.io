@@ -1,7 +1,7 @@
 @import url(base.css);
 /*banner*/
 .banner{
-	background:url(../images/banner.jpg) no-repeat 0px 0px;
+	background:url(../images/bn.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
@@ -536,7 +536,7 @@ textarea.text {
 	}
 @media screen and (max-width:1280px){	
 	.banner {
-		background: url(../images/banner.jpg) no-repeat -55px 0px;
+		background: url(../images/bn.jpg) no-repeat -55px 0px;
 	}
 	.banner-info {
 		left: 25%;
@@ -547,7 +547,7 @@ textarea.text {
 }
 @media screen and (max-width:1024px){
 	.banner{
-	  background: url(../images/banner.jpg) no-repeat -170px 0px;
+	  background: url(../images/bn.jpg) no-repeat -170px 0px;
 		min-height:525px;
 	}
 	.banner-info{
@@ -644,7 +644,7 @@ textarea.text {
 		background: rgba(0, 0, 0, 0.80);
 	}
 	.banner{
-	   background: url(../images/banner.jpg) no-repeat -292px 0px;
+	   background: url(../images/bn.jpg) no-repeat -292px 0px;
 	}
 	.banner-info {
 		left: 15%;
