@@ -159,6 +159,20 @@ span.para {
   border: 1px solid #e8e8e8;
   margin-top: 40px; }
 
+.port-img:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.35s;
+  z-index: 10;
+  content: ""; }
+
 .portfolio-info h2 {
   margin: 0;
   text-align: center;
@@ -180,10 +194,13 @@ span.para {
   border-top: 1px solid #e8e8e8; }
 
 .port-img {
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .port-img img {
     width: 100%;
-    position: relative; }
+    position: relative;
+    z-index: 5;
+    transition: all 0.35s; }
 
 .caption {
   padding: 15px 8px;
@@ -211,7 +228,8 @@ span.left {
   position: absolute;
   top: 47%;
   left: 30%;
-  display: none; }
+  display: none;
+  z-index: 15; }
   .desc a {
     color: #ffffff;
     border: 1px solid #ffffff;
@@ -228,6 +246,13 @@ span.left {
     -o-transition: .5s all;
     -ms-transition: .5s all;
     -moz-transition: .5s all; }
+
+.port-img:hover img {
+  transform: scale(1.2); }
+
+.portfolio-image:hover .port-img:after {
+  visibility: visible;
+  opacity: 1; }
 
 .portfolio-image:hover div.desc {
   display: block;
