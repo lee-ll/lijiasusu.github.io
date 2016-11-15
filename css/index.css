@@ -674,7 +674,7 @@ textarea.text {
     width:6%;
     }
   .banner {
-    background: url("../images/banner.jpg") no-repeat -352px 0px;
+    background: url(../images/bn.jpg) no-repeat -352px 0px;
     }
   .banner-info h1 {
     font-size: 25px;
@@ -788,7 +788,7 @@ textarea.text {
     top:16%;
     }
   .banner {
-    background: url("../images/banner.jpg") no-repeat -441px 0px;
+    background: url(../images/bn.jpg) no-repeat -441px 0px;
     min-height: 445px;
     }
   .banner-info {
@@ -945,7 +945,7 @@ textarea.text {
     padding: 13px 0;
     }
   .banner {
-    background: url("../images/banner.jpg") no-repeat -517px 0px;
+    background: url(../images/bn.jpg) no-repeat -517px 0px;
     min-height: 292px;
     }
   .banner-info {
