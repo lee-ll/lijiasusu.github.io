@@ -9,6 +9,7 @@
 	-moz-background-size: cover;
 	position:relative;
 	min-height:548px;
+	width:100%;
 }
 .logo{
 	float:left;
@@ -561,7 +562,8 @@ textarea.text {
 	}
 @media screen and (max-width:1280px){	
 	.banner {
-		background: url(../images/bn.jpg) no-repeat -55px 0px;
+		background: url(../images/bn.jpg) no-repeat ;
+		background-size:cover;
 	}
 	.banner-info {
 		left: 25%;
@@ -570,11 +572,13 @@ textarea.text {
 	width:65%;
 	}
 }
-@media screen and (max-width:1024px){
-	.banner{
-	  background: url(../images/bn.jpg) no-repeat -170px 0px;
-		min-height:525px;
-	}
+@media screen and (max-width:1024px){ 
+      body{
+    width:100%;
+    }
+     .banner{
+     background-size:cover;
+     }
 	.banner-info{
 	 left:22%;
 	}
@@ -589,7 +593,8 @@ textarea.text {
 	}
 	.desc{
 	    top: 46%;
-		left: 26%;
+		left: 40%;
+		position:absolute;
 	}
 	span.right {
 		padding-left: 79px;
@@ -601,8 +606,8 @@ textarea.text {
 		font-size: 21px;
 	}
 	.ser-info p {
-		overflow:hidden;
-		height:93px;
+		
+		height:233px;
 	}
 	.border {
 		width: 26%;
@@ -632,6 +637,9 @@ textarea.text {
 	}	
 }
 @media screen and (max-width:768px) {
+    body{
+    width:100%;
+    }
 	.logo{
 	width:20%;
 	}
@@ -669,7 +677,8 @@ textarea.text {
 		background: rgba(0, 0, 0, 0.80);
 	}
 	.banner{
-	   background: url(../images/bn.jpg) no-repeat -292px 0px;
+	   background: url(../images/bn.jpg) no-repeat ;
+	   background-size:cover;
 	}
 	.banner-info {
 		left: 15%;
@@ -696,15 +705,16 @@ textarea.text {
 	.about-right h2 {
 		font-size: 13px;
 		}
-	.portfolio-grid{
+	/*.portfolio-grid{
 		float:left;
 		width:33.3%;
-		}
+		}*/
 	.portfolio-info p {
 		width: 58%;
 		}
 	.desc{
 	top:44%;
+	left:32%;
 	& a{
 	  padding:14px;
 	 }
